@@ -8,6 +8,4 @@ Rails.application.routes.draw do
     patch '/songs/:id', to: 'songs#update'
     delete '/songs/:id', to: 'songs#destroy'
   
-    root 'songs#index'
-  end
 end
